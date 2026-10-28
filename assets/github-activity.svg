@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="695" viewBox="0 0 1000 695">
+
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#0b1020"/>
+            <stop offset="100%" stop-color="#111827"/>
+          </linearGradient>
+          <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#ef4444"/>
+            <stop offset="100%" stop-color="#38bdf8"/>
+          </linearGradient>
+        </defs>
+        <rect width="1000" height="100%" rx="18" fill="url(#bg)"/>
+        <rect x="1" y="1" width="998" height="100%" rx="17"
+              fill="none" stroke="#293449"/>
+        <rect x="0" y="0" width="1000" height="5" rx="2"
+              fill="url(#line)"/>
+        
+<text x="34" y="48" fill="#f8fafc" font-size="25" font-family="monospace" font-weight="700">ACTIVITY COMMAND CENTRE</text>
+<text x="35" y="75" fill="#94a3b8" font-size="12" font-family="monospace">USER // SHRIJIT0105 · PUBLIC REPOSITORY TELEMETRY</text>
+<text x="965" y="48" text-anchor="end" fill="#4ade80" font-size="12" font-family="monospace">● SYSTEM ONLINE</text>
+<text x="965" y="75" text-anchor="end" fill="#64748b" font-size="11" font-family="monospace">28 Oct 2026 · 18:23 UTC</text>
+<rect x="34" y="105" width="294" height="105" rx="10" fill="#0f172a" stroke="#273449"/>
+<rect x="34" y="105" width="4" height="105" rx="2" fill="#38bdf8"/>
+<text x="54" y="137" fill="#94a3b8" font-size="12" font-family="monospace">PUBLIC REPOSITORIES</text>
+<text x="54" y="181" fill="#f8fafc" font-size="34" font-family="monospace" font-weight="700">15</text>
+<rect x="349" y="105" width="294" height="105" rx="10" fill="#0f172a" stroke="#273449"/>
+<rect x="349" y="105" width="4" height="105" rx="2" fill="#f87171"/>
+<text x="369" y="137" fill="#94a3b8" font-size="12" font-family="monospace">STARS EARNED</text>
+<text x="369" y="181" fill="#f8fafc" font-size="34" font-family="monospace" font-weight="700">0</text>
+<rect x="664" y="105" width="294" height="105" rx="10" fill="#0f172a" stroke="#273449"/>
+<rect x="664" y="105" width="4" height="105" rx="2" fill="#a78bfa"/>
+<text x="684" y="137" fill="#94a3b8" font-size="12" font-family="monospace">FORKS</text>
+<text x="684" y="181" fill="#f8fafc" font-size="34" font-family="monospace" font-weight="700">0</text>
+<text x="34" y="250" fill="#e2e8f0" font-size="16" font-family="monospace" font-weight="700">▸ RECENT COMMIT ACTIVITY</text>
+<line x1="34" y1="266" x2="966" y2="266" stroke="#334155"/>
+<circle cx="42" cy="307" r="4" fill="#38bdf8"/>
+<text x="58" y="304" fill="#7dd3fc" font-size="12" font-family="monospace">Github_activity_command-</text>
+<text x="58" y="325" fill="#e2e8f0" font-size="13" font-family="monospace">Add generate_activity.py for GitHub activity tracking</text>
+<text x="58" y="344" fill="#64748b" font-size="10" font-family="monospace">COMMIT 46b8ea3 · 2026-10-28</text>
+<a href="https://github.com/Shrijit0105/Github_activity_command-/commit/46b8ea3bb688104969bdace53f332d09ac2f29a5" target="_blank"><rect x="25" y="288" width="940" height="57" fill="transparent"/></a>
+<line x1="34" y1="353" x2="966" y2="353" stroke="#1e293b"/>
+<circle cx="42" cy="373" r="4" fill="#38bdf8"/>
+<text x="58" y="370" fill="#7dd3fc" font-size="12" font-family="monospace">Github_activity_command-</text>
+<text x="58" y="391" fill="#e2e8f0" font-size="13" font-family="monospace">Add GitHub Actions workflow for activity updates</text>
+<text x="58" y="410" fill="#64748b" font-size="10" font-family="monospace">COMMIT eaa1efe · 2026-10-28</text>
+<a href="https://github.com/Shrijit0105/Github_activity_command-/commit/eaa1efe0a8da65327c02cfd3232c6b507ee052cb" target="_blank"><rect x="25" y="354" width="940" height="57" fill="transparent"/></a>
+<line x1="34" y1="419" x2="966" y2="419" stroke="#1e293b"/>
+<circle cx="42" cy="439" r="4" fill="#38bdf8"/>
+<text x="58" y="436" fill="#7dd3fc" font-size="12" font-family="monospace">Daily-Dev-Lab</text>
+<text x="58" y="457" fill="#e2e8f0" font-size="13" font-family="monospace">DSA subarray</text>
+<text x="58" y="476" fill="#64748b" font-size="10" font-family="monospace">COMMIT 4339d4c · 2026-10-27</text>
+<a href="https://github.com/Shrijit0105/Daily-Dev-Lab/commit/4339d4ce4bfe842ab314f102edede1c8c66a19ae" target="_blank"><rect x="25" y="420" width="940" height="57" fill="transparent"/></a>
+<line x1="34" y1="485" x2="966" y2="485" stroke="#1e293b"/>
+<circle cx="42" cy="505" r="4" fill="#38bdf8"/>
+<text x="58" y="502" fill="#7dd3fc" font-size="12" font-family="monospace">Daily-Dev-Lab</text>
+<text x="58" y="523" fill="#e2e8f0" font-size="13" font-family="monospace">file_extension_analyser</text>
+<text x="58" y="542" fill="#64748b" font-size="10" font-family="monospace">COMMIT c560719 · 2026-10-27</text>
+<a href="https://github.com/Shrijit0105/Daily-Dev-Lab/commit/c5607190c712038e6ddacb9259e9faf587323267" target="_blank"><rect x="25" y="486" width="940" height="57" fill="transparent"/></a>
+<line x1="34" y1="551" x2="966" y2="551" stroke="#1e293b"/>
+<circle cx="42" cy="571" r="4" fill="#38bdf8"/>
+<text x="58" y="568" fill="#7dd3fc" font-size="12" font-family="monospace">Daily-Dev-Lab</text>
+<text x="58" y="589" fill="#e2e8f0" font-size="13" font-family="monospace">linux_system</text>
+<text x="58" y="608" fill="#64748b" font-size="10" font-family="monospace">COMMIT e43f051 · 2026-10-26</text>
+<a href="https://github.com/Shrijit0105/Daily-Dev-Lab/commit/e43f051888fd7d633cf9a583b1ee9cfa989b880f" target="_blank"><rect x="25" y="552" width="940" height="57" fill="transparent"/></a>
+<line x1="34" y1="617" x2="966" y2="617" stroke="#1e293b"/>
+<text x="34" y="670" fill="#64748b" font-size="10" font-family="monospace">GENERATED BY GITHUB ACTIONS · SVG TELEMETRY</text>
+<text x="966" y="670" text-anchor="end" fill="#64748b" font-size="10" font-family="monospace">END OF TRANSMISSION</text>
+</svg>
