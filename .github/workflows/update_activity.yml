@@ -1,0 +1,51 @@
+
+name: Update Activity Command Centre
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "assets/github-activity.svg"
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity-command-centre
+  cancel-in-progress: false
+
+jobs:
+  generate-dashboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate activity SVG
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python src/generate_activity.py
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-activity.svg
+
+          if git diff --cached --quiet; then
+            echo "SVG is already up to date."
+          else
+            git commit -m "Update GitHub Activity Command Centre"
+            git push
+          fi
